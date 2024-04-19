@@ -10,4 +10,4 @@ let height = await inquirer.prompt({
     name: "body_height",
     message: "Enter your height in meters.....",
 });
-console.log("\n\tYour Body Mass Index =" + " " + (bodyMass.body_mass) / (height.body_height * 2));
+console.log("\n\tYour Body Mass Index =" + " " + (bodyMass.body_mass) / (height.body_height * height.body_height));
